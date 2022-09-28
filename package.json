@@ -1,0 +1,26 @@
+{
+  "name": "forkify",
+  "version": "1.0.0",
+  "description": "recipe Search",
+  "default": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "author": "Sumit Kumar Jha",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.7.0",
+    "buffer": "^6.0.3",
+    "events": "^3.3.0",
+    "fractional": "^1.0.0",
+    "parcel": "^2.7.0",
+    "process": "^0.11.10",
+    "stream-browserify": "^3.0.0",
+    "util": "^0.12.4"
+  },
+  "dependencies": {
+    "core-js": "^3.25.3",
+    "regenerator-runtime": "^0.13.9"
+  }
+}
